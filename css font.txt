@@ -1,0 +1,37 @@
+css_webfont.html
+fonts.google.com
+css_text_align.html
+
+text 스타일
+px, %, em, rem, vw
+
+---
+font-weight
+text-decoration
+text-align
+글씨
+성격(inline)
+
+---
+글의 간격
+letter-spacing
+word-spacing
+line-height
+
+font-family 글골을 인용부호로 감싸지정
+font-size 수치에 px,%,em 등의 단위를 붙여 지정
+font-weight 두께를 bold,normal 또는 수치로 지정
+font-style 기울이거나italic, 바로세운다normal
+font-variant small-caps등
+line-height 줄 간격을 수치px,%,em으로 지정
+font 위의 속성들을 한 줄로 기술하는 선택자
+
+
+
+---순서---
+family-size-weight-style-color
+
+font 순서
+
+font:[font-weight, font-style, font-varint] [font-size/line-height] [font-family]
+p{font:bold, italic small-caps 12px/1.2 '굴림',Gulim;}

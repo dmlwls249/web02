@@ -1,0 +1,27 @@
+absolute 부모(기준)의 자격
+position 기본값(static)이 아닌 요소
+가까운 부모중에서 relative, absolute, fixed
+
+fixed 무조건 화면을 기준으로 위치
+
+white-space:nowrap; ->줄넘김을 하지 말아라
+
+transition 전환
+100px->400px
+전환되는 과정 보여주는 속성
+
+ease 느리다
+ease-in 처음이 느림
+ease-out 끝부분이 느림
+ease-in-out 중간이 느림
+
+transition:width 2s 1s ease-in-out;
+앞이 duration, 뒤가 delay
+
+
+transition:width 2s 1s ease-in-out, 
+    margin-left 2s 1s ease-in;
+
+
+
+cubic bezier

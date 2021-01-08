@@ -1,0 +1,50 @@
+selector
+01-태그선택자
+02-전체 선택자
+03-class 선택자
+04-id 선택자
+05-자손선택자(하위선택자) div h2{}
+06-자식선택자 div > h2{}
+07-인점형제선택자
+08-그룹화
+09-속성 선택자(attribute selector)
+10-가상 선택자(pseudo selector)
+11-의사요소 선택자
+12-구조선택자
+13-형태구조선택자
+14-부정선택자
+
+*{margin:0 auto; padding:0;}
+
+css_selector_priority.html
+1.동급의(같은)선택자 아래에 작성한것이 우선 높다.
+->
+*0 (전체 선택자)
+tag 1 (태그선택자)
+class 10 
+id 100
+inline style 1000( <p id="text" style="color:teal">)
+
+class-공통적인 요소를 한 번에 바꿀 일이 있을 때
+id-단독으로 스타일 변경
+
+가상 선택자
+
+a{
+	text-decoration:none;
+}
+a:link{
+	text-decoration:none;
+}
+:link{
+	text-decoration:none;
+}
+
+의사요소 선택자
+ h1:before{
+                content:'before ';
+                color:cadetblue;
+            }
+
+csslint.net
+
